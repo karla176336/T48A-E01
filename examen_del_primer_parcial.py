@@ -44,3 +44,6 @@ def asistencia_dispersion():
     varianza = np.var(datos)
     desv_est = np.std(datos)
     return (rango, varianza, desv_est)
+
+def correlacion():
+    pass
