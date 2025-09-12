@@ -65,10 +65,10 @@ def correlacion():
 # Regresa una cadena de caracteres en cada función
 
 def problema_especifico():
-    respuesta = "para que no haya como que trampa en las cosas"
+    respuesta = "para que no haya como que trampa en lo que respecta a datos"
 
 def importancia():
-    respuesta = ""
+    respuesta = "las peronas estaran mas seguras en el manejo de sus datos"
 
 def objetivos():
     respuesta = ""
