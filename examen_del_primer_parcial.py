@@ -55,21 +55,23 @@ def histograma_np():
     hist, bin_edges = np.histogram(calificaciones)
     return hist, bin_edges
 
-# Regresa una cadena de caracteres en cada función
 
-def problema_especifico():
-    respuesta = ""
-
-def importancia():
-    pass
-
-def objetivos():
-    pass
-
-def tipo_de_datos():
-    pass
 def correlacion():
     tamaño = np.array([100, 120, 140, 160, 180, 200, 220, 240, 260, 280])
     precio = np.array([1305710, 1658277, 1894167, 2136552, 2298267, 2553624, 2780503, 3289726, 3472743, 3779477])
     coeficiente_pearson = np.corrcoef(tamaño, precio)[0, 1]
     return coeficiente_pearson
+
+# Regresa una cadena de caracteres en cada función
+
+def problema_especifico():
+    respuesta = "para que no haya como que trampa en las cosas"
+
+def importancia():
+    respuesta = ""
+
+def objetivos():
+    respuesta = ""
+
+def tipo_de_datos():
+    respuesta = ""
