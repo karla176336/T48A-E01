@@ -62,6 +62,22 @@ def correlacion():
     coeficiente_pearson = np.corrcoef(tamaño, precio)[0, 1]
     return coeficiente_pearson
 
+def probabilidad_condicional():
+    hombres_primera = 60
+    hombres_reincidente = 70
+    mujeres_primera = 44
+    mujeres_reincidente = 76
+    total_ladrones = hombres_primera + hombres_reincidente + mujeres_primera + mujeres_reincidente
+
+    # Calcular la probabilidad de que el ladron sea hombre
+    total_hombres = hombres_primera + hombres_reincidente
+    p_hombre = total_hombres / total_ladrones
+
+    # Calcular la probabilidad de que sea el primer odensa
+    p_primera_ofensa_y_hombre = hombres_primera / total_ladrones
+    p_po_hombre = p_primera_ofensa_y_hombre / p_hombre
+    return (p_hombre, p_po_hombre)
+
 # Regresa una cadena de caracteres en cada función
 
 def problema_especifico():
