@@ -82,15 +82,20 @@ def probabilidad_condicional():
 
 def problema_especifico():
     respuesta = "ver como cambian el significado de os signos y planetas o que cosas tienen en comun con base a textos astrologicos pre-uranianos"
+    return(respuesta)
 
 def importancia():
     respuesta = "estandarizar las distintas tradiciones astrologicas asi como el rescate de el conocimietno antigua, tambien podria servir como apoyo para los estudios de astrologia moderna"
+    return(respuesta)
 
 def objetivos():
     respuesta = "comparar similitudes y diferenicas entre los diversos textos,recolectar y digitalizar estos textos,, identificar patrones de correspondencias, reprocesar los textos"
+    return(respuesta)
 
 def resultados():
     respuesta = "patrones escondidos revelados, que sea herramienta para investigadores, el ordenamiento de las correspondencias magicas en una base de datos"
+    return(respuesta)
 
 def tipo_de_datos():
     respuesta = "los textos fuentes,datos contextuales como los diversos traductores y como se pudo perder el significado entre traducciones, datos linguisticos como los sinonimos o palabras especializadas (como conjunciones, oposiciones, encuadre etc),fechas, datos de correspondencia entre distintos textos"
+    return(respuesta)
