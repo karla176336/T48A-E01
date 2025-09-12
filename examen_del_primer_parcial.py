@@ -45,6 +45,16 @@ def asistencia_dispersion():
     desv_est = np.std(datos)
     return (rango, varianza, desv_est)
 
+def histograma_np():
+    """
+    Nota: regrese el histograma generado con la función de numpy, no genere la gráfica
+    """
+    calificaciones = [7.9, 7.8, 7.8, 6.7, 7.6, 8.7, 8.5, 7.3, 6.6, 9.9, 8.4, 7.2,
+                     6.6, 5.7, 9.4, 8.4, 7.2, 6.3, 5.1, 4.8, 5.0, 6.1, 7.1, 8.2,
+                     9.3, 10.0, 8.9]
+    hist, bin_edges = np.histogram(calificaciones)
+    return hist, bin_edges
+
 def correlacion():
     tamaño = np.array([100, 120, 140, 160, 180, 200, 220, 240, 260, 280])
     precio = np.array([1305710, 1658277, 1894167, 2136552, 2298267, 2553624, 2780503, 3289726, 3472743, 3779477])
