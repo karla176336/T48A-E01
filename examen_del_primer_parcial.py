@@ -13,7 +13,7 @@ def capitalizacion():
     elementos_unicos, conteos = np.unique(datos, return_counts=True)
     moda = elementos_unicos[np.argmax(conteos)]
     desv_est = np.std(datos)
-    return float (media, mediana, moda, desv_est)
+    return float (media, mediana,desv_est)
 
 def asistencia_dispersion():
     """
